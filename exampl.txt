@@ -1,52 +1,55 @@
 EXPERIMENT 1
 git clone repolink 
 cd reponame 
-code . 
+code
 gitadd .
 git commit -m "message" 
 git push
 
 EXPERIMENT 2
-git branch feature-branch
-git checkout feature-branch
+git branch feature
+git checkout feature
 git add .
 git commit -m "message"
-git push origin feature-branch:main
+git checkout main
+git merge feature
 
 git add .
-git commit -m "message"
 git stash
-git checkout feature-branch
 git stash apply
 
 EXPERIMENT 3
-git clone repolink
+git branch feature
+git checkout feature
 git branch -v
-git checkout -b feature-branch
-git branch -v
-git rebase origin 
+ 
 git add .
 git commit -m "message"
+git fetch origin
 git rebase origin
 
 EXPERIMENT 4
+git branch feature
+git checkout feature
+
 git add .
 git commit -m "message"
-git push
-git log  —oneline 
-git tag  v1.0 (commit id) 
-git tag
-git push origin v1.0
+git log  
+git tag -a v1.0 -m"tag"
+git show v1.0
 
 EXPERIMENT 5
-git log --oneline 
-git status 
-git checkout feature-branch 
-git cherry-pick id
+git branch feature
+git checkout feature
+
+git add .
+git commit -m "message"
+git log --oneline (copy code
+git checkout main
+git cherry-pick (paste
+git show (paste
 
 EXPERIMENT 6
-git log --oneline 
-git show (commit id)
-//open new terminal //
-git log --author=" " --after="(//yesterday date//) "    --before="(//tmr date//)"
-git log -n 5
+1st 5th
+git log --author="natashasanil" --after="2024-1-1" --before="2024-7-11"
+git log -n 5 --oneline
