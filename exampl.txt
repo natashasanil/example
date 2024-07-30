@@ -1,4 +1,4 @@
-EXPERIMENT 1
+---EXPERIMENT 1---
 git clone repolink 
 cd reponame 
 code
@@ -6,7 +6,7 @@ gitadd .
 git commit -m "message" 
 git push
 
-EXPERIMENT 2
+---EXPERIMENT 2---
 git branch feature
 git checkout feature
 git add .
@@ -18,7 +18,7 @@ git add .
 git stash
 git stash apply
 
-EXPERIMENT 3
+---EXPERIMENT 3---
 git branch feature
 git checkout feature
 git branch -v
@@ -28,7 +28,7 @@ git commit -m "message"
 git fetch origin
 git rebase origin
 
-EXPERIMENT 4
+---EXPERIMENT 4---
 git branch feature
 git checkout feature
 
@@ -38,7 +38,7 @@ git log
 git tag -a v1.0 -m"tag"
 git show v1.0
 
-EXPERIMENT 5
+---EXPERIMENT 5---
 git branch feature
 git checkout feature
 
@@ -49,7 +49,7 @@ git checkout main
 git cherry-pick (paste
 git show (paste
 
-EXPERIMENT 6
+---EXPERIMENT 6---
 1st 5th
 git log --author="natashasanil" --after="2024-1-1" --before="2024-7-11"
 git log -n 5 --oneline
